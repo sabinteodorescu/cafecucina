@@ -80,7 +80,7 @@
 						<h3>John Smith</h3>
 						<h6>Manager and Co-Owner</h6>
 
-						<p>Cucina, the Italian word for kitchen, has been serving authentically delicious Italian cuisine north of the river Liffey for over 13 years. It is a cosy restaurant located on Parnell Street which is now vastly improved from previous years and is well worth a visit.</p>
+						<p>Cucina, the Italian word for kitchen, has been serving authentically delicious Italian cuisine north of the river Liffey for over 14 years. It is a cosy restaurant located on Parnell Street which is now vastly improved from previous years and is well worth a visit.</p>
 						<p>They cannot be beaten in quality or price and have firmly established themselves as the No.1.</p>
 					</div>
 					<div class="paddymurphy">
