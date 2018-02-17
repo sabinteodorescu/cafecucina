@@ -1,0 +1,346 @@
+body {
+	font-family: 'Open Sans', sans-serif;
+	font-size: 24px;
+	line-height: 1.25;
+	color: #212121;
+}
+
+* {
+	box-sizing: border-box;
+}
+
+*::selection {
+	background-color: #FFA838;
+}
+
+.wrapper {
+	width: 1170px;
+	margin: 0 auto;
+}
+
+.cf:before,
+.cf:after {
+    content: " ";
+    display: table;
+}
+
+.cf:after {
+    clear: both;
+}
+
+.cf {
+    *zoom: 1;
+}
+
+a {
+	color: #212121;
+	text-decoration: none;
+}
+
+#header {
+	height: 100vh;
+	position: relative;
+	background-size: cover;
+	background-position: center center;
+	background-repeat: no-repeat;
+	background-attachment: fixed;
+	padding-top: 20px;
+}
+
+#logo {
+	float: left;
+	color: #fff;
+	text-transform: uppercase;
+	font-size: 28px;
+}
+
+#menu {
+	float: right;
+}
+
+#menu li {
+	display: inline-block;
+	padding: 0 20px;
+}
+
+#menu li:last-child {
+	padding-right: 0;
+}
+
+#menu li a {
+	color: white;
+	text-transform: uppercase;
+	font-size: 18px;
+	line-height: 35px;
+	transition: all .3s ease-in-out;
+	padding: 5px;
+}
+
+#menu li a:hover {
+	opacity: .7;
+}
+
+#header h1 {
+	color: #fff;
+	font-size: 60px;
+	text-transform: uppercase;
+	position: absolute;
+	top: 0;
+	bottom: 0;
+	left: 0;
+	right: 0;
+	margin: auto;
+	height: 75px;
+	width: 1170px;
+	text-align: center;
+	letter-spacing: -1px;
+}
+
+#about {
+	padding: 50px 0;
+}
+
+#about .description {
+	float: left;
+	width: 50%;
+	padding-right: 20px;
+}
+
+#about .description h2 {
+	font-size: 32px;
+	margin-bottom: 20px;
+	text-transform: uppercase;
+	text-align: center;
+}
+
+#about .description p {
+	margin-bottom: 15px;
+}
+
+#about .photos {
+	float: right;
+	width: 50%;
+	padding-left: 20px;
+}
+
+#about .photos img {
+	width: 100%;
+}
+
+#about .photos .leftphotos {
+	float: left;
+	width: 50%;
+	padding-right: 10px;
+}
+
+#about .photos .leftphotos img:first-child {
+	margin-bottom: 14px;
+}
+
+#about .photos .rightphotos {
+	float: right;
+	width: 50%;
+	padding-left: 10px;
+}
+
+#reservation {
+	text-align: center;
+	color: white;
+	background-image: url('../img/img-5.jpg');
+	background-size: cover;
+	background-position: center center;
+	background-repeat: no-repeat;
+	background-attachment: fixed;
+	padding: 300px 0;
+}
+
+#reservation h2 {
+	font-size: 50px;
+	margin-bottom: 30px;
+	text-transform: uppercase;
+}
+
+#reservation h4 {
+	font-size: 30px;
+	margin-bottom: 30px;
+}
+
+.button {
+	color: #fff;
+	border: 1px solid #fff;
+	border-radius: 30px;
+	padding: 10px 25px;
+	font-size: 20px;
+	text-transform: uppercase;
+	display: inline-block;
+	transition: all .5s ease-in-out;
+}
+
+.button:hover {
+	color: #000;
+	background-color: #fff;
+}
+
+#menus {
+	margin: 75px 0;
+	text-align: center;
+}
+
+#menus img {
+	padding-right: 30px;
+	margin: 0 20px 20px 0;
+}
+
+#menus img:last-child {
+	padding-right: 0;
+}
+
+#menus p {
+	display: inline-block;
+	margin-bottom: 20px;
+	text-align: left;
+}
+
+#menus p:first-child {
+	padding-right: 10px;
+	float: left;
+	width: 50%;
+}
+
+#menus p:last-child {
+	padding-left: 10px;
+	float: right;
+	width: 50%;
+}
+
+#menus .button {
+	color: black;
+	border: 1px solid #000;
+	padding: 10px 25px;
+	margin-top: 20px;
+	transition: all .5s ease-in-out;
+}
+
+#menus .button:hover {
+	color: #fff;
+	background-color: #000;
+}
+
+#hosts {
+	background-image: url('../img/img-9.jpg');
+	background-size: cover;
+	background-position: center center;
+	background-repeat: no-repeat;
+	background-attachment: fixed;
+	padding: 300px 0;
+	position: relative;
+	text-align: center;
+}
+
+#hosts h2 {
+	color: #fff;
+	font-size: 50px;
+	text-transform: uppercase;
+	position: absolute;
+	top: 0;
+	bottom: 0;
+	left: 0;
+	right: 0;
+	margin: auto;
+	height: 65px;
+	width: 1170px;
+	text-align: center;
+}
+
+#header.hosts {
+	background-image: url('../img/img-9.jpg');
+	background-size: cover;
+	background-position: center center;
+	background-repeat: no-repeat;
+	background-attachment: fixed;
+	position: relative;
+	text-align: center;
+	height: 50vh;
+}
+
+#header.hosts h2 {
+	color: #fff;
+	font-size: 50px;
+	text-transform: uppercase;
+	position: absolute;
+	top: 0;
+	bottom: 0;
+	left: 0;
+	right: 0;
+	margin: auto;
+	height: 65px;
+	width: 1170px;
+	text-align: center;
+}
+
+.staff {
+	margin: 50px 0;
+}
+
+.staff h3 {
+	font-size: 32px;
+	text-transform: uppercase;
+}
+
+.staff h3, h6, p {
+	margin-bottom: 25px;
+}
+
+.staff .johnsmith {
+	float: left;
+	width: 50%;
+	padding-right: 1px;
+}
+
+.staff .paddymurphy {
+	float: right;
+	width: 50%;
+	padding-left: 1px;
+}
+
+.foodimg {
+	margin-top: 50px;
+	width: 90%;
+	text-align: center;
+}
+
+.foodimg img {
+	margin: 10px 10px;
+	padding: 0;
+}
+
+footer {
+	background-color: #000;
+	color: #fff;
+}
+
+footer #location {
+	float: left;
+	display: inline;
+}
+
+footer #hours {
+	float: right;
+	display: inline;
+}
+
+footer #stuff {
+	padding: 50px 0;
+}
+
+footer h5 {
+	margin-bottom: 25px;
+}
+
+footer p {
+	margin-bottom: 5px;
+}
+
+.active {
+	border-bottom: 1px solid #fff;
+}
